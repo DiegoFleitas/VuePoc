@@ -7,7 +7,7 @@
 
     <input style="font-size:1.2em;" type="text" class="form-control" id="alt-image" v-model="text">
     <button style="font-size:1.2em; background:green; color:white;" @click="sendMessage" class="btn btn-info">Send message to son</button>
-    
+
     <another-component :messages="messages" :key="messages.length"></another-component>
 
   </div>
@@ -24,7 +24,7 @@ export default {
     anotherComponent
   },
   created() {
-    // alert('Hello from the Vue side!');
+    alert('EL DIEGUI!');
   },
   data() {
     return {
